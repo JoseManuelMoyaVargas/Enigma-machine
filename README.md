@@ -6,9 +6,9 @@ Symbol 0 ends the message.
 
 ## Rotors and reflectors 
 Rotors Wx={wx, 0, wx, 1,...,wx, n} and reflectors Ry={ry, 0, ry, 1,...,ry, n} are given as permutations of numbers {1,2,...,n} and simulate mechanical parts that can be used by an operator. The internal "wiring" of these parts does not change.  
-Typing a letter into the input encrypts it by passing it through the rotors into reflector and back through the rotors in the inverse sequence, as seen. A stationary sequence of rotors and a reflector represent a simple substitution cipher.
-Each rotor can move counterclockwise by at most one step during each encoding. The first rotor moves before every encoding; therefore if the initial position of this single rotor is denoted by the last letter of the alphabet the first letter is encoded according to substitutions as stated in the rotor's definition.  
-Further rotors move according to rules outlined in section ["Turnover notch positions"](https://en.wikipedia.org/wiki/Enigma_machine#Turnover) of this link and this section. Additional information about double stepping can be found [here](https://en.wikipedia.org/wiki/Maximum_agreement_subtree_problem).  
+Typing a letter into the input encrypts it by passing it through the rotors into reflector and back through the rotors in the inverse sequence. 
+Each rotor can move counterclockwise by at most one step during each encoding. The first rotor moves before every encoding.  
+Further rotors move according to rules outlined in section ["Turnover notch positions"](https://en.wikipedia.org/wiki/Enigma_machine#Turnover).Additional information about double stepping can be found [here](http://www.intelligenia.org/downloads/rotors1.pdf).  
 In case there are more than 3 rotors only the first 3 rotate.  
 
 ## Input format
